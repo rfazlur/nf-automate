@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial">
+    <parameter name="projectId" value="2" />
+    <parameter name="runId" value="4" />
+    <test name="testngTest">
+        <classes>
+            <class name="com.testcase.TestLogin" />
+        </classes>
+    </test>
+</suite>
